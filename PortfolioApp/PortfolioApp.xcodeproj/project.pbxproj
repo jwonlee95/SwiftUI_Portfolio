@@ -7,136 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */; };
-		0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BC27EA1FE200BC0A1D /* ContentView.swift */; };
-		0EA977BF27EA1FE400BC0A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */; };
-		0EA977C227EA1FE400BC0A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977C127EA1FE400BC0A1D /* Preview Assets.xcassets */; };
-		0EA977CA27EA20AB00BC0A1D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977C827EA20AB00BC0A1D /* Main.xcdatamodeld */; };
-		0EA977CC27EA238800BC0A1D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977CB27EA238800BC0A1D /* DataController.swift */; };
-		0EA9780527EB889800BC0A1D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA9780427EB889800BC0A1D /* CloudKit.framework */; };
-		0EA9780727EB897700BC0A1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780627EB897700BC0A1D /* HomeView.swift */; };
-		0EA9780927EB8A3700BC0A1D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */; };
-		0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */; };
-		0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */; };
+		0EA977F527EB816E00BC0A1D /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977F427EB816E00BC0A1D /* PortfolioAppApp.swift */; };
+		0EA977F727EB816E00BC0A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977F627EB816E00BC0A1D /* ContentView.swift */; };
+		0EA977F927EB817000BC0A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977F827EB817000BC0A1D /* Assets.xcassets */; };
+		0EA977FC27EB817000BC0A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977FB27EB817000BC0A1D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
-		0EA977BC27EA1FE200BC0A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0EA977C127EA1FE400BC0A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0EA977C927EA20AB00BC0A1D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
-		0EA977CB27EA238800BC0A1D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		0EA977CD27EA2A5000BC0A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		0EA9780227EB819000BC0A1D /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
-		0EA9780427EB889800BC0A1D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		0EA9780627EB897700BC0A1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
-		0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
-		0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		0EA977F127EB816E00BC0A1D /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA977F427EB816E00BC0A1D /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
+		0EA977F627EB816E00BC0A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EA977F827EB817000BC0A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA977FB27EB817000BC0A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EA977B427EA1FE200BC0A1D /* Frameworks */ = {
+		0EA977EE27EB816E00BC0A1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA9780527EB889800BC0A1D /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA977AE27EA1FE200BC0A1D = {
+		0EA977E827EB816E00BC0A1D = {
 			isa = PBXGroup;
 			children = (
-				0EA977B927EA1FE200BC0A1D /* UltimatePortfolio */,
-				0EA977B827EA1FE200BC0A1D /* Products */,
-				0EA9780327EB889800BC0A1D /* Frameworks */,
+				0EA977F327EB816E00BC0A1D /* PortfolioApp */,
+				0EA977F227EB816E00BC0A1D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0EA977B827EA1FE200BC0A1D /* Products */ = {
+		0EA977F227EB816E00BC0A1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */,
+				0EA977F127EB816E00BC0A1D /* PortfolioApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EA977B927EA1FE200BC0A1D /* UltimatePortfolio */ = {
+		0EA977F327EB816E00BC0A1D /* PortfolioApp */ = {
 			isa = PBXGroup;
 			children = (
-				0EA9780227EB819000BC0A1D /* UltimatePortfolio.entitlements */,
-				0EA977CD27EA2A5000BC0A1D /* Info.plist */,
-				0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */,
-				0EA9780627EB897700BC0A1D /* HomeView.swift */,
-				0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */,
-				0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */,
-				0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */,
-				0EA977BC27EA1FE200BC0A1D /* ContentView.swift */,
-				0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */,
-				0EA977C827EA20AB00BC0A1D /* Main.xcdatamodeld */,
-				0EA977CB27EA238800BC0A1D /* DataController.swift */,
-				0EA977C027EA1FE400BC0A1D /* Preview Content */,
+				0EA977F427EB816E00BC0A1D /* PortfolioAppApp.swift */,
+				0EA977F627EB816E00BC0A1D /* ContentView.swift */,
+				0EA977F827EB817000BC0A1D /* Assets.xcassets */,
+				0EA977FA27EB817000BC0A1D /* Preview Content */,
 			);
-			path = UltimatePortfolio;
+			path = PortfolioApp;
 			sourceTree = "<group>";
 		};
-		0EA977C027EA1FE400BC0A1D /* Preview Content */ = {
+		0EA977FA27EB817000BC0A1D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0EA977C127EA1FE400BC0A1D /* Preview Assets.xcassets */,
+				0EA977FB27EB817000BC0A1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0EA9780327EB889800BC0A1D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0EA9780427EB889800BC0A1D /* CloudKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EA977B627EA1FE200BC0A1D /* UltimatePortfolio */ = {
+		0EA977F027EB816E00BC0A1D /* PortfolioApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EA977C527EA1FE400BC0A1D /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */;
+			buildConfigurationList = 0EA977FF27EB817000BC0A1D /* Build configuration list for PBXNativeTarget "PortfolioApp" */;
 			buildPhases = (
-				0EA977B327EA1FE200BC0A1D /* Sources */,
-				0EA977B427EA1FE200BC0A1D /* Frameworks */,
-				0EA977B527EA1FE200BC0A1D /* Resources */,
+				0EA977ED27EB816E00BC0A1D /* Sources */,
+				0EA977EE27EB816E00BC0A1D /* Frameworks */,
+				0EA977EF27EB816E00BC0A1D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UltimatePortfolio;
-			productName = UltimatePortfolio;
-			productReference = 0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */;
+			name = PortfolioApp;
+			productName = PortfolioApp;
+			productReference = 0EA977F127EB816E00BC0A1D /* PortfolioApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0EA977AF27EA1FE200BC0A1D /* Project object */ = {
+		0EA977E927EB816E00BC0A1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					0EA977B627EA1FE200BC0A1D = {
+					0EA977F027EB816E00BC0A1D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 0EA977B227EA1FE200BC0A1D /* Build configuration list for PBXProject "UltimatePortfolio" */;
+			buildConfigurationList = 0EA977EC27EB816E00BC0A1D /* Build configuration list for PBXProject "PortfolioApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,48 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0EA977AE27EA1FE200BC0A1D;
-			productRefGroup = 0EA977B827EA1FE200BC0A1D /* Products */;
+			mainGroup = 0EA977E827EB816E00BC0A1D;
+			productRefGroup = 0EA977F227EB816E00BC0A1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EA977B627EA1FE200BC0A1D /* UltimatePortfolio */,
+				0EA977F027EB816E00BC0A1D /* PortfolioApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EA977B527EA1FE200BC0A1D /* Resources */ = {
+		0EA977EF27EB816E00BC0A1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA977C227EA1FE400BC0A1D /* Preview Assets.xcassets in Resources */,
-				0EA977BF27EA1FE400BC0A1D /* Assets.xcassets in Resources */,
+				0EA977FC27EB817000BC0A1D /* Preview Assets.xcassets in Resources */,
+				0EA977F927EB817000BC0A1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EA977B327EA1FE200BC0A1D /* Sources */ = {
+		0EA977ED27EB816E00BC0A1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA9780927EB8A3700BC0A1D /* ProjectsView.swift in Sources */,
-				0EA977CA27EA20AB00BC0A1D /* Main.xcdatamodeld in Sources */,
-				0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */,
-				0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */,
-				0EA977CC27EA238800BC0A1D /* DataController.swift in Sources */,
-				0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */,
-				0EA9780727EB897700BC0A1D /* HomeView.swift in Sources */,
-				0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */,
+				0EA977F727EB816E00BC0A1D /* ContentView.swift in Sources */,
+				0EA977F527EB816E00BC0A1D /* PortfolioAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0EA977C327EA1FE400BC0A1D /* Debug */ = {
+		0EA977FD27EB817000BC0A1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		0EA977C427EA1FE400BC0A1D /* Release */ = {
+		0EA977FE27EB817000BC0A1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,19 +261,17 @@
 			};
 			name = Release;
 		};
-		0EA977C627EA1FE400BC0A1D /* Debug */ = {
+		0EA9780027EB817000BC0A1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PortfolioApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3QWBTBV3DD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.lee.jaewon.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lee.jaewon.PortfolioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,19 +290,17 @@
 			};
 			name = Debug;
 		};
-		0EA977C727EA1FE400BC0A1D /* Release */ = {
+		0EA9780127EB817000BC0A1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PortfolioApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3QWBTBV3DD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.lee.jaewon.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lee.jaewon.PortfolioApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,38 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EA977B227EA1FE200BC0A1D /* Build configuration list for PBXProject "UltimatePortfolio" */ = {
+		0EA977EC27EB816E00BC0A1D /* Build configuration list for PBXProject "PortfolioApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EA977C327EA1FE400BC0A1D /* Debug */,
-				0EA977C427EA1FE400BC0A1D /* Release */,
+				0EA977FD27EB817000BC0A1D /* Debug */,
+				0EA977FE27EB817000BC0A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EA977C527EA1FE400BC0A1D /* Build configuration list for PBXNativeTarget "UltimatePortfolio" */ = {
+		0EA977FF27EB817000BC0A1D /* Build configuration list for PBXNativeTarget "PortfolioApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EA977C627EA1FE400BC0A1D /* Debug */,
-				0EA977C727EA1FE400BC0A1D /* Release */,
+				0EA9780027EB817000BC0A1D /* Debug */,
+				0EA9780127EB817000BC0A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0EA977C827EA20AB00BC0A1D /* Main.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0EA977C927EA20AB00BC0A1D /* Main.xcdatamodel */,
-			);
-			currentVersion = 0EA977C927EA20AB00BC0A1D /* Main.xcdatamodel */;
-			path = Main.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 0EA977AF27EA1FE200BC0A1D /* Project object */;
+	rootObject = 0EA977E927EB816E00BC0A1D /* Project object */;
 }
