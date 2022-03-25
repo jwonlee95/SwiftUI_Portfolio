@@ -18,6 +18,7 @@
 		0EA9780927EB8A3700BC0A1D /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */; };
 		0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */; };
 		0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */; };
+		0EA9780F27EE0B9900BC0A1D /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780E27EE0B9900BC0A1D /* EditItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		0EA9780E27EE0B9900BC0A1D /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */,
 				0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */,
 				0EA977BC27EA1FE200BC0A1D /* ContentView.swift */,
+				0EA9780E27EE0B9900BC0A1D /* EditItemView.swift */,
 				0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */,
 				0EA977C827EA20AB00BC0A1D /* Main.xcdatamodeld */,
 				0EA977CB27EA238800BC0A1D /* DataController.swift */,
@@ -179,6 +182,7 @@
 				0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */,
 				0EA9780727EB897700BC0A1D /* HomeView.swift in Sources */,
 				0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */,
+				0EA9780F27EE0B9900BC0A1D /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
