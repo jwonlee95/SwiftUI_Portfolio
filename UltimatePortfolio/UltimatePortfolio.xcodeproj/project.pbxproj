@@ -19,6 +19,7 @@
 		0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */; };
 		0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */; };
 		0EA9780F27EE0B9900BC0A1D /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9780E27EE0B9900BC0A1D /* EditItemView.swift */; };
+		0EA9781127EE253F00BC0A1D /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9781027EE253F00BC0A1D /* ItemRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		0EA9780E27EE0B9900BC0A1D /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		0EA9781027EE253F00BC0A1D /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */,
 				0EA9780627EB897700BC0A1D /* HomeView.swift */,
 				0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */,
+				0EA9781027EE253F00BC0A1D /* ItemRowView.swift */,
 				0EA9780C27EBA42500BC0A1D /* Project-CoreDataHelpers.swift */,
 				0EA9780A27EBA35600BC0A1D /* Item-CoreDataHelpers.swift */,
 				0EA977BC27EA1FE200BC0A1D /* ContentView.swift */,
@@ -178,6 +181,7 @@
 				0EA977CA27EA20AB00BC0A1D /* Main.xcdatamodeld in Sources */,
 				0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */,
 				0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */,
+				0EA9781127EE253F00BC0A1D /* ItemRowView.swift in Sources */,
 				0EA977CC27EA238800BC0A1D /* DataController.swift in Sources */,
 				0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */,
 				0EA9780727EB897700BC0A1D /* HomeView.swift in Sources */,
