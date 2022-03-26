@@ -102,7 +102,7 @@ struct ProjectsView: View {
                 ActionSheet(title: Text("Sort items"), message: nil, buttons: [
                     .default(Text("Optimized")) { sortOrder = .optimized },
                     .default(Text("Creation Date")) { sortOrder = .creationDate },
-                    .default(Text("Title")) { sortOrder = .creationDate }
+                    .default(Text("Title")) { sortOrder = .title }
                 ])
             }
         }
