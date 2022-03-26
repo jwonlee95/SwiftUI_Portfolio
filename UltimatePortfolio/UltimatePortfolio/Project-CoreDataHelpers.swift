@@ -66,8 +66,27 @@ extension Project {
         project.detail = "This is an example project"
         project.closed = true
         project.creationDate = Date()
-        
+         
         return project
     }
     
+    func projectItems(using sortOrder: Item.SortOrder) -> [Item] {
+        //I have used enum method for sorting
+        switch sortOrder {
+        case .optimized:
+            return projectItemsDefaultSorted
+        case .title:
+            return projectItems.sorted(by: \Item.itemTitle)
+        case .creationDate:
+            return projectItems.sorted(by: \Item.itemCreationDate)
+        }
+        
+        
+        // When using keyPath method for sorting
+//        guard let sortingKeyPath = sortingKeyPath else {
+//            return project.projectItemsDefaultSorted
+//        }
+//
+//        return project.projectItems.sorted(by: sortingKeyPath)
+    }
 }
