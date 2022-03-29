@@ -30,6 +30,7 @@
 		0EF8BA4727F3844A00306107 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8BA4627F3844A00306107 /* Bundle-Decodable.swift */; };
 		0EF8BA4927F3895800306107 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8BA4827F3895800306107 /* Award.swift */; };
 		0EF8BA4B27F389F000306107 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8BA4A27F389F000306107 /* AwardsView.swift */; };
+		0EF8BA4D27F394CC00306107 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8BA4C27F394CC00306107 /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		0EF8BA4627F3844A00306107 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		0EF8BA4827F3895800306107 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		0EF8BA4A27F389F000306107 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		0EF8BA4C27F394CC00306107 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				0EA9781427EE56A100BC0A1D /* ProjectHeaderView.swift */,
 				0EA9781827EE5A1D00BC0A1D /* EditProjectView.swift */,
 				0EA9780627EB897700BC0A1D /* HomeView.swift */,
+				0EF8BA4C27F394CC00306107 /* Color-Additions.swift */,
 				0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */,
 				0EF8BA4627F3844A00306107 /* Bundle-Decodable.swift */,
 				0EF8BA4227F0E7FE00306107 /* SelectSomethingView.swift */,
@@ -214,6 +217,7 @@
 				0EF8BA4B27F389F000306107 /* AwardsView.swift in Sources */,
 				0EA977CA27EA20AB00BC0A1D /* Main.xcdatamodeld in Sources */,
 				0EA9780D27EBA42500BC0A1D /* Project-CoreDataHelpers.swift in Sources */,
+				0EF8BA4D27F394CC00306107 /* Color-Additions.swift in Sources */,
 				0EA9781927EE5A1D00BC0A1D /* EditProjectView.swift in Sources */,
 				0EA9780B27EBA35600BC0A1D /* Item-CoreDataHelpers.swift in Sources */,
 				0EF8BA4327F0E7FE00306107 /* SelectSomethingView.swift in Sources */,
