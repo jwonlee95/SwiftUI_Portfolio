@@ -58,7 +58,7 @@ struct ProjectsView: View {
                                         let item = allItems[offset]
                                         dataController.delete(item)
                                     }
-                                    
+                                     
                                     dataController.save()
                                 }
                             }
