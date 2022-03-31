@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E43EDB727F3B3DF0050C15B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E43EDB627F3B3DF0050C15B /* Localizable.strings */; };
 		0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */; };
 		0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BC27EA1FE200BC0A1D /* ContentView.swift */; };
 		0EA977BF27EA1FE400BC0A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E43EDB627F3B3DF0050C15B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		0EA977BC27EA1FE200BC0A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				0EA9781427EE56A100BC0A1D /* ProjectHeaderView.swift */,
 				0EA9781827EE5A1D00BC0A1D /* EditProjectView.swift */,
 				0EA9780627EB897700BC0A1D /* HomeView.swift */,
+				0E43EDB627F3B3DF0050C15B /* Localizable.strings */,
 				0EF8BA4C27F394CC00306107 /* Color-Additions.swift */,
 				0EA9780827EB8A3700BC0A1D /* ProjectsView.swift */,
 				0EF8BA4627F3844A00306107 /* Bundle-Decodable.swift */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E43EDB727F3B3DF0050C15B /* Localizable.strings in Resources */,
 				0EA9781727EE591D00BC0A1D /* Colors.xcassets in Resources */,
 				0EF8BA4527F383A900306107 /* Awards.json in Resources */,
 				0EA977C227EA1FE400BC0A1D /* Preview Assets.xcassets in Resources */,
