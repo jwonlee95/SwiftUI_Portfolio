@@ -1,7 +1,7 @@
 [
     {
         "name": "First Steps",
-        "description": "Add your first item.",
+        "description": "첫번째 아이템을 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 1,
@@ -9,7 +9,7 @@
     },
     {
         "name": "A Great Start",
-        "description": "Add 10 item.",
+        "description": "아이템 10개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 10,
@@ -17,7 +17,7 @@
     },
     {
         "name": "Moving On Up",
-        "description": "Add 20 items.",
+        "description": "아이템 20개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 20,
@@ -25,7 +25,7 @@
     },
     {
         "name": "Gathering Speed",
-        "description": "Add 50 items.",
+        "description": "아이템 50개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 50,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Making Waves",
-        "description": "Add 100 items.",
+        "description": "아이템 100개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 100,
@@ -41,7 +41,7 @@
     },
     {
         "name": "High Performer",
-        "description": "Add 250 items.",
+        "description": "아이템 250개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 250,
@@ -49,7 +49,7 @@
     },
     {
         "name": "Star Performer",
-        "description": "Add 500 items.",
+        "description": "아이템 500개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 500,
@@ -57,7 +57,7 @@
     },
     {
         "name": "Champion Performer",
-        "description": "Add 1000 items.",
+        "description": "아이템 1000개를 추가하세요!",
         "color": "Light Blue",
         "criterion": "items",
         "value": 1000,
@@ -65,7 +65,7 @@
     },
     {
         "name": "Checking Boxes",
-        "description": "Complete your first item.",
+        "description": "첫번째 아이템을 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 1,
@@ -73,7 +73,7 @@
     },
     {
         "name": "Rocking it",
-        "description": "Complete 10 items.",
+        "description": "아이템 10개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 10,
@@ -81,7 +81,7 @@
     },
     {
         "name": "20 is Plenty",
-        "description": "Complete 20 items.",
+        "description": "아이템 20개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 20,
@@ -89,7 +89,7 @@
     },
     {
         "name": "Bullseye!",
-        "description": "Complete 50 items.",
+        "description": "아이템 50개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 50,
@@ -97,7 +97,7 @@
     },
     {
         "name": "Flying High",
-        "description": "Complete 100 items.",
+        "description": "아이템 100개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 100,
@@ -105,7 +105,7 @@
     },
     {
         "name": "You're On Fire!",
-        "description": "Complete 250 items.",
+        "description": "아이템 250개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 250,
@@ -113,7 +113,7 @@
     },
     {
         "name": "Box Ticker in Chief",
-        "description": "Complete 500 items.",
+        "description": "아이템 500개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 500,
@@ -121,7 +121,7 @@
     },
     {
         "name": "Boom!",
-        "description": "Complete 1000 items.",
+        "description": "아이템 1000개를 완료하세요!",
         "color": "Orange",
         "criterion": "complete",
         "value": 1000,
@@ -129,7 +129,7 @@
     },
     {
         "name": "First Message",
-        "description": "You posted your first message to the group chat.",
+        "description": "그룹채팅에 첫번째 메세지를 작성해보세요!",
         "color": "Purple",
         "criterion": "chat",
         "value": 1,
@@ -137,7 +137,7 @@
     },
     {
         "name": "Frequent Chatter",
-        "description": "You've posted 10 messages to the group chat.",
+        "description": "그룹채팅에 10개의 메세지를 작성해보세요!",
         "color": "Purple",
         "criterion": "chat",
         "value": 10,
@@ -145,7 +145,7 @@
     },
     {
         "name": "Community Powerhouse",
-        "description": "You've posted 100 messages to the group chat.",
+        "description": "그룹채팅에 100개의 메세지를 작성해보세요!",
         "color": "Purple",
         "criterion": "chat",
         "value": 100,
@@ -153,7 +153,7 @@
     },
     {
         "name": "Supporter",
-        "description": "You bought the premium unlock.",
+        "description": "프리미엄 회원 달성!",
         "color": "Green",
         "criterion": "unlock",
         "value": 0,
