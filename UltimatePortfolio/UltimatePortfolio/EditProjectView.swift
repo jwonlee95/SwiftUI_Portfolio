@@ -35,7 +35,7 @@ struct EditProjectView: View {
             // section 1
             Section(header: Text("Basic settings")) {
                 TextField("Project name", text: $title.onChange(update))
-                TextField("Description of the project", text: $detail.onChange(update))
+                TextField("Description of this project", text: $detail.onChange(update))
             }
             // section 2
             Section(header: Text("Custom project color")) {
