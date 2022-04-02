@@ -25,6 +25,17 @@ struct ItemRowView: View {
         }
     }
     
+    /* creating labels for item rows for Voice Over mode. Users need to know if it is completed or important*/
+    var label: Text {
+        if item.completed {
+            return Text("\(item.itemTitle), completed.")
+        } else if item.priority == 3 {
+            return Text("\(item.itemTitle), high priority.")
+        } else {
+            return Text(item.itemTitle)
+        }
+    }
+    
     var body: some View {
         NavigationLink(destination: EditItemView(item: item)) {
             Label {
@@ -33,6 +44,7 @@ struct ItemRowView: View {
                 icon
             }
         }
+        .accessibilityLabel(label)
     }
 }
 
