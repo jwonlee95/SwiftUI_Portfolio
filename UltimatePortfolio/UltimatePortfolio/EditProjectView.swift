@@ -64,7 +64,7 @@ struct EditProjectView: View {
                 title: Text("Delete project?"),
                 message: Text("Are you sure you want to delete this project? You will also delete all the items it contains."),
                 primaryButton: .default(Text("Delete"), action: delete),
-                secondaryButton: .cancel()) 
+                secondaryButton: .cancel())
         }
     }
     
