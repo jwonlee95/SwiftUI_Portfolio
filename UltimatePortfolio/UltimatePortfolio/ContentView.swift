@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A View that contains tabs and shows view for which ever tab is chosen.
 struct ContentView: View {
     @SceneStorage("selectedView") var selectedView: String?
     

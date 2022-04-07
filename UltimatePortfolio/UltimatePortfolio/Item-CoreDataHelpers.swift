@@ -8,6 +8,8 @@
 import Foundation
 
 extension Item {
+    
+    /// Used enum method for sorting. It is used in Project-CoreDataHelpers file.
     enum SortOrder {
         case optimized, title, creationDate
     }

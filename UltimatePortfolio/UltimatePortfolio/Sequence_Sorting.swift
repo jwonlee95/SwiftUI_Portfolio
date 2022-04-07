@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+/// Two ways to sort the values. First one is used becasue it is simpler and newer.
 extension Sequence {
     func sorted<Value>(by keyPath: KeyPath<Element, Value>, using areIncreasingOrder: (Value, Value) throws -> Bool) rethrows -> [Element] {
         try self.sorted {

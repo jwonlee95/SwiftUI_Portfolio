@@ -13,6 +13,7 @@ struct HomeView: View {
     
     @EnvironmentObject var dataController: DataController
     
+    // Fetch only those projects that are opened.
     @FetchRequest(
         entity: Project.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
@@ -21,12 +22,13 @@ struct HomeView: View {
     
     let items: FetchRequest<Item>
     
+    // Projects displayed as fixed sized grid on the top of the HomeView
     var projectRows: [GridItem] {
         [GridItem(.fixed(100))]
     }
     
     init() {
-        //Construct a fetch request to show the 10 highest priority,
+        // Construct a fetch request to show the 10 highest priority,
         // incomplete items from open projects.
         let request: NSFetchRequest<Item> = Item.fetchRequest()
         

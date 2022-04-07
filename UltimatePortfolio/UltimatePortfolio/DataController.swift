@@ -8,10 +8,17 @@
 import CoreData
 import SwiftUI
 
+/// An enviornment singleton responsible for managing out Core Data stack, including handling string.
+/// counting fetch requests, tracking awards, and dealing with sample data.
 class DataController: ObservableObject {
-    //saves on CloudKit for be used in any device with same Cloud
+    /// Saves on CloudKit for be used in any device with same Cloud
     let container: NSPersistentCloudKitContainer
     
+    /// Initializes a data controller, either in memory (for temporary use such as testing and previewing),
+    /// or on permanent storage (for use in regular app runs).
+    ///
+    /// Defaults to permanent storage.
+    /// - Parameter inMemory: Whether to store this data in temporary memory or not.
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")
         
@@ -43,7 +50,8 @@ class DataController: ObservableObject {
         return dataController
     }()
     
-    //creating sample data for viewContext(Preview)
+    
+    /// creating sample data for viewContext(Preview)
     func createSampleData() throws {
         let viewContext = container.viewContext
         
@@ -67,7 +75,8 @@ class DataController: ObservableObject {
         try viewContext.save()
     }
     
-    //Save if anything changed
+    
+    /// Saves our Core Data context if there are changes. This silently ignores any errors caused by saving, but this should be fine because our attributes are optional.
     func save() {
         if container.viewContext.hasChanges {
             try? container.viewContext.save()
@@ -78,6 +87,7 @@ class DataController: ObservableObject {
         container.viewContext.delete(object)
     }
     
+    /// Deletes all the existing Projects and Items before creating sample datas. It is for testing purposes.
     func deleteAll() {
         let fetchRequest1: NSFetchRequest<NSFetchRequestResult> = Item.fetchRequest()
         let batchDeleteRequest1 = NSBatchDeleteRequest(fetchRequest: fetchRequest1)
@@ -92,6 +102,9 @@ class DataController: ObservableObject {
         (try? container.viewContext.count(for: fetchRequest)) ?? 0
     }
     
+    /// Checks if the user met the award criterion.
+    /// - Parameter award: Which award is selected
+    /// - Returns: Boolean value of Criterion of given awaed is met or not
     func hasEarned(award: Award) -> Bool {
         switch award.criterion {
         case "items":

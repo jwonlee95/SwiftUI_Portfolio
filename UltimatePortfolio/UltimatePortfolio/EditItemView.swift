@@ -17,6 +17,8 @@ struct EditItemView: View {
     @State private var priority: Int
     @State private var completed: Bool
     
+    /// Initializes the chosen item from user.
+    /// - Parameter item: Selected Item from user.
     init(item: Item) {
         self.item = item
         
@@ -52,7 +54,7 @@ struct EditItemView: View {
 //        .onChange(of: detail) { _ in update() }
 //        .onChange(of: priority) { _ in update() }
 //        .onChange(of: completed) { _ in update() }
-        // -> Write Cleaner using Binding
+        // -> Write Cleaner using Binding at line 35, 39, 48
     }
     
     func update() {

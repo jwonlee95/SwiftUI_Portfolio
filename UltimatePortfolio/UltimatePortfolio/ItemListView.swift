@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A list that shows information about a items on HomeView
 struct ItemListView: View {
     let title: LocalizedStringKey
     let items: FetchedResults<Item>.SubSequence

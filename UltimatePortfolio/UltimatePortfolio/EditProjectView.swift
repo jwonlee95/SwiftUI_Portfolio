@@ -22,6 +22,8 @@ struct EditProjectView: View {
         GridItem(.adaptive(minimum: 44))
     ]
     
+    /// Initializes the chosen project from user.
+    /// - Parameter item: Selected project from user.
     init(project: Project) {
         self.project = project
         
@@ -79,6 +81,9 @@ struct EditProjectView: View {
         presentationMode.wrappedValue.dismiss()
     }
     
+    /// Let's users to tap on a color and saves the selected color to be project's color
+    /// - Parameter item: Chosen project
+    /// - Returns: Chosen Color
     func colorButton(for item: String) -> some View {
         ZStack {
             Color(item)
@@ -86,6 +91,7 @@ struct EditProjectView: View {
                 .cornerRadius(6)
             
             if item == color {
+                //draws checkmark over the color button.
                 Image(systemName: "checkmark.circle")
                     .foregroundColor(.white)
                     .font(.largeTitle)
@@ -95,6 +101,7 @@ struct EditProjectView: View {
             color = item
             update()
         }
+        // Letting voice over be clear which button is which.
         .accessibilityElement(children: .ignore)
         .accessibilityAddTraits(
             item == color

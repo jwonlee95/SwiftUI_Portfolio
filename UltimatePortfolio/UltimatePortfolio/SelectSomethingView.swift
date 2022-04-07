@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// View for landscape mode of large devices. The main view shows an empty page and a menu bar so it is to let users know what to do when seeing this page.
 struct SelectSomethingView: View {
     var body: some View {
         Text("Please select something from the menu to begin")

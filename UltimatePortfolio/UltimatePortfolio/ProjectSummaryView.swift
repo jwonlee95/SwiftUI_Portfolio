@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A container that shows information about a project on the top of the HomeView
 struct ProjectSummaryView: View {
     @ObservedObject var project: Project
     

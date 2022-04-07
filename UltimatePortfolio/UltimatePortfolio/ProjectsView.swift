@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Main tab views for open and closed tabs.
 struct ProjectsView: View {
     static let openTag: String? = "Open"
     static let closedTag: String? = "Closed"
@@ -40,6 +41,8 @@ struct ProjectsView: View {
     }
     
     //  To clean up the code, this part contains data that is dealing with in the same page. This makes it difficult if we make another swiftUI View file. In this case, we can make another view variable with same structure as body.
+    
+    /// List of projects including items inside. This is the Main contents.
     var projectsList: some View {
         List {
             ForEach(projects.wrappedValue) { project in
@@ -64,6 +67,7 @@ struct ProjectsView: View {
         .listStyle(InsetGroupedListStyle())
     }
     
+    /// App project button on the right top corner
     var addProjectToolbarItem: some ToolbarContent {
         ToolbarItem(placement: .navigationBarTrailing) {
             if showClosedProjects == false {
@@ -74,6 +78,7 @@ struct ProjectsView: View {
         }
     }
     
+    /// Sort button on the left top corener
     var sortOrderToolbarItem: some ToolbarContent {
         ToolbarItem(placement: .navigationBarLeading) {
             Button {
@@ -111,7 +116,8 @@ struct ProjectsView: View {
             SelectSomethingView()
         }
     }
-
+    
+    /// Creates a new project which a default value set in Project-CoreDataHelpers file.
     func addProject() {
         withAnimation {
             let project = Project(context: managedObjectContext)
@@ -121,7 +127,7 @@ struct ProjectsView: View {
         }
     }
     
-
+    /// Creates a new item which a default value set in Item-CoreDataHelpers file.
     func addItem(to project: Project) {
         withAnimation {
             let item = Item(context: managedObjectContext)
@@ -131,6 +137,10 @@ struct ProjectsView: View {
         }
     }
     
+    /// Deletes selected item by swiping left.
+    /// - Parameters:
+    ///   - offsets: Position of the item
+    ///   - project: Owner project of the selected item
     func delete(_ offsets: IndexSet, from project: Project) {
         let allItems = project.projectItems(using: sortOrder)
         for offset in offsets {

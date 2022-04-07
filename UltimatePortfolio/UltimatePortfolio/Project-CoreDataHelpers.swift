@@ -26,6 +26,10 @@ extension Project {
         items?.allObjects as? [Item] ?? []
     }
     
+    /// Default Sort type which is optimized in our project. The order of sorting goes as,
+    ///  1. Not completed -> Completed
+    ///  2. Ones that have higher priority
+    ///  3. Created Date
     var projectItemsDefaultSorted: [Item] {
         projectItems.sorted { first, second in
             if first.completed == false {
@@ -48,6 +52,7 @@ extension Project {
         }
     }
     
+    /// Calculates the completion amount of a project.
     var completionAmount: Double {
         let originalItems = items?.allObjects as? [Item] ?? []
         guard originalItems.isEmpty == false else { return 0 }
@@ -73,6 +78,9 @@ extension Project {
         return project
     }
     
+    ///  Sort items by given method from a user.
+    /// - Parameter sortOrder: Sorting method chosen by the user.
+    /// - Returns: Sorted array of items.
     func projectItems(using sortOrder: Item.SortOrder) -> [Item] {
         //I have used enum method for sorting
         switch sortOrder {

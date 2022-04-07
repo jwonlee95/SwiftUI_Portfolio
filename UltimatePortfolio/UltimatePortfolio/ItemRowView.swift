@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// This view constructs the design of item displayed as rows. It shows icons for which are completed, has high priority for user fiendly UI.
 struct ItemRowView: View {
     //This Row view is made to oberve each change in items. Therefore, needs to use @ObservedObject rather than @StateObject
     @ObservedObject var project: Project

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A View that shows project name, progress bar and Edit button. It is displayed on open and closed tab.
 struct ProjectHeaderView: View {
     @ObservedObject var project: Project
     var body: some View {
