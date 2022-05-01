@@ -14,6 +14,7 @@
 		0E43EDC927F8AE260050C15B /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E43EDC827F8AE260050C15B /* ProjectSummaryView.swift */; };
 		0EA81E59280B4C7400BB7862 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E58280B4C7400BB7862 /* UltimatePortfolioTests.swift */; };
 		0EA81E60280B4E0B00BB7862 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */; };
+		0EA81E62281EE88A00BB7862 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E61281EE88A00BB7862 /* ProjectTests.swift */; };
 		0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */; };
 		0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BC27EA1FE200BC0A1D /* ContentView.swift */; };
 		0EA977BF27EA1FE400BC0A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		0EA81E56280B4C7400BB7862 /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA81E58280B4C7400BB7862 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
+		0EA81E61281EE88A00BB7862 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		0EA977BC27EA1FE200BC0A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			children = (
 				0EA81E58280B4C7400BB7862 /* UltimatePortfolioTests.swift */,
 				0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */,
+				0EA81E61281EE88A00BB7862 /* ProjectTests.swift */,
 			);
 			path = UltimatePortfolioTests;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			files = (
 				0EA81E60280B4E0B00BB7862 /* AssetTest.swift in Sources */,
 				0EA81E59280B4C7400BB7862 /* UltimatePortfolioTests.swift in Sources */,
+				0EA81E62281EE88A00BB7862 /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
