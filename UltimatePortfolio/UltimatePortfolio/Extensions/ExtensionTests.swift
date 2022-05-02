@@ -5,6 +5,7 @@
 //  Created by Jae Won Lee on 2022/05/02.
 //
 
+import SwiftUI
 import XCTest
 @testable import UltimatePortfolio
 
@@ -51,5 +52,30 @@ class ExtensionTests: XCTestCase {
         let data = bundle.decode([String: Int].self, from: "DecodableDictionary.json")
         XCTAssertEqual(data.count, 3, "There should be 3 items decoded from DecodableDictionary.json file.")
         XCTAssertEqual(data["One"], 1, "The dictionary should contain Int to String mappings.")
+    }
+
+// Testing Binding-OnChange by checking the changed value after onChange function is ran.
+    func testBindingOnChange() {
+        // Given
+        var onChangeFunctionRun = false
+        
+        func exampleFunctionToCall() {
+            onChangeFunctionRun = true
+        }
+        
+        var storedValue = ""
+        
+        let binding = Binding(
+            get: { storedValue },
+            set: { storedValue = $0 }
+        )
+        
+        let changedBinding = binding.onChange(exampleFunctionToCall)
+        
+        // When
+        changedBinding.wrappedValue = "Test"
+        
+        // Then
+        XCTAssertTrue(onChangeFunctionRun, "The onChange() function must be run when the binding is changed.")
     }
 }
