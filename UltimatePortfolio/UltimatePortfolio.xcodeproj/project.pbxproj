@@ -16,6 +16,10 @@
 		0EA81E60280B4E0B00BB7862 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */; };
 		0EA81E62281EE88A00BB7862 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E61281EE88A00BB7862 /* ProjectTests.swift */; };
 		0EA81E64281EEB3300BB7862 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E63281EEB3300BB7862 /* AwardTests.swift */; };
+		0EA81E68281EF93800BB7862 /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E67281EF93800BB7862 /* DevelopmentTests.swift */; };
+		0EA81E6A281FDBF100BB7862 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA81E69281FDBF100BB7862 /* ExtensionTests.swift */; };
+		0EA81E6D281FE0EC00BB7862 /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EA81E6C281FE0EC00BB7862 /* DecodableDictionary.json */; };
+		0EA81E6F281FE12D00BB7862 /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EA81E6E281FE12D00BB7862 /* DecodableString.json */; };
 		0EA977BB27EA1FE200BC0A1D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */; };
 		0EA977BD27EA1FE200BC0A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA977BC27EA1FE200BC0A1D /* ContentView.swift */; };
 		0EA977BF27EA1FE400BC0A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA977BE27EA1FE400BC0A1D /* Assets.xcassets */; };
@@ -65,6 +69,10 @@
 		0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 		0EA81E61281EE88A00BB7862 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		0EA81E63281EEB3300BB7862 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
+		0EA81E67281EF93800BB7862 /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
+		0EA81E69281FDBF100BB7862 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExtensionTests.swift; path = UltimatePortfolio/Extensions/ExtensionTests.swift; sourceTree = SOURCE_ROOT; };
+		0EA81E6C281FE0EC00BB7862 /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
+		0EA81E6E281FE12D00BB7862 /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
 		0EA977B727EA1FE200BC0A1D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA977BA27EA1FE200BC0A1D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		0EA977BC27EA1FE200BC0A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,12 +206,24 @@
 		0EA81E57280B4C7400BB7862 /* UltimatePortfolioTests */ = {
 			isa = PBXGroup;
 			children = (
+				0EA81E6B281FE02200BB7862 /* Fixtures */,
+				0EA81E69281FDBF100BB7862 /* ExtensionTests.swift */,
 				0EA81E61281EE88A00BB7862 /* ProjectTests.swift */,
 				0EA81E58280B4C7400BB7862 /* UltimatePortfolioTests.swift */,
 				0EA81E63281EEB3300BB7862 /* AwardTests.swift */,
+				0EA81E67281EF93800BB7862 /* DevelopmentTests.swift */,
 				0EA81E5F280B4E0B00BB7862 /* AssetTest.swift */,
 			);
 			path = UltimatePortfolioTests;
+			sourceTree = "<group>";
+		};
+		0EA81E6B281FE02200BB7862 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				0EA81E6C281FE0EC00BB7862 /* DecodableDictionary.json */,
+				0EA81E6E281FE12D00BB7862 /* DecodableString.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		0EA977AE27EA1FE200BC0A1D = {
@@ -339,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA81E6F281FE12D00BB7862 /* DecodableString.json in Resources */,
+				0EA81E6D281FE0EC00BB7862 /* DecodableDictionary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +387,9 @@
 				0EA81E60280B4E0B00BB7862 /* AssetTest.swift in Sources */,
 				0EA81E64281EEB3300BB7862 /* AwardTests.swift in Sources */,
 				0EA81E59280B4C7400BB7862 /* UltimatePortfolioTests.swift in Sources */,
+				0EA81E6A281FDBF100BB7862 /* ExtensionTests.swift in Sources */,
 				0EA81E62281EE88A00BB7862 /* ProjectTests.swift in Sources */,
+				0EA81E68281EF93800BB7862 /* DevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
