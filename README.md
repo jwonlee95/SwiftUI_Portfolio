@@ -77,8 +77,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Create all the views and functions
 - [x] clear voice over for accessibility
 - [x] Multi-Language Support (Eng/Kor for now)
-- [ ] Organize Project
+- [x] Organize Project
 - [x] Add Comments for easy read and understand the codes
+- [ ] Testing Project
+  - [x]  Base, CoreData, Data, Extensions
+  - [x]  Performance Test
+  - [ ]  UI Test
 - [ ] Use MVVM structure
 - [ ] Add Hapticks
 - [ ] Add local notifications
